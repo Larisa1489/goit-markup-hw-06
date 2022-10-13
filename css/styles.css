@@ -912,6 +912,14 @@ img {
   fill: var(--acent-txt-cl);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/* .modal-btn-icon {
+  transition: transform 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.modal-btn-icon:hover,
+.modal-btn-icon:focus {
+  fill: var(--acent-txt-cl);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} */
 
 /* Modal form */
 .modal-form {
@@ -1091,6 +1099,9 @@ img {
   background-origin: border-box;
 
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.checkbox:focus + .icon {
+  border-color: #2196f3;
 }
 .checkbox:checked ~ .checkbox-title {
   color: #014f8f;
